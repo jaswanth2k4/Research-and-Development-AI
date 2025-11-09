@@ -1,10 +1,10 @@
 
-# 🧠 Research & Development / AI Assignment  
+Research & Development / AI Assignment  
 ### **Parametric Curve Parameter Estimation using Optimization**
 
 ---
 
-## 📘 **Problem Statement**
+**Problem Statement**
 
 The objective of this assignment is to determine the unknown parameters  
 \[
@@ -34,7 +34,7 @@ The task is to find the best-fitting values of \(\theta, M, X\) that minimize th
 
 ---
 
-## 🎯 **Objective**
+**Objective**
 Minimize the following L1 loss function:
 \[
 f(\theta, M, X) = \sum_i \left( |x_i - x(t_i)| + |y_i - y(t_i)| \right)
@@ -43,7 +43,7 @@ subject to the parameter bounds above.
 
 ---
 
-## ⚙️ **Methodology**
+**Methodology**
 
 1. **Data Handling**  
    - The dataset contained only \((x, y)\) coordinates.  
@@ -67,7 +67,7 @@ subject to the parameter bounds above.
 
 ---
 
-## 📊 **Final Estimated Parameters**
+**Final Estimated Parameters**
 
 | Parameter | Symbol | Value |
 |------------|---------|--------|
@@ -79,7 +79,7 @@ subject to the parameter bounds above.
 
 ---
 
-## 🧩 **Final Parametric Equation**
+**Final Parametric Equation**
 
 \[
 \left(
@@ -90,7 +90,7 @@ t\cos(0.490759) - e^{0.021389|t|}\sin(0.3t)\sin(0.490759) + 54.901923,\;
 
 ---
 
-## 💡 **Desmos (Parametric Format)**
+**Desmos (Parametric Format)**
 
 ```
 (t*cos(0.490759) - e^(0.021389*abs(t))*sin(0.3*t)*sin(0.490759) + 54.901923,
@@ -103,7 +103,7 @@ t\cos(0.490759) - e^{0.021389|t|}\sin(0.3t)\sin(0.490759) + 54.901923,\;
 
 ---
 
-## 📈 **Result Visualization**
+**Result Visualization**
 
 The fitted curve accurately overlays the observed data points.
 
@@ -111,7 +111,7 @@ The fitted curve accurately overlays the observed data points.
 
 ---
 
-## 🧮 **Mathematical Summary**
+**Mathematical Summary**
 
 - Optimization Method: **L-BFGS-B (bounded quasi-Newton)**
 - Objective: **Minimize L1 error**
@@ -122,7 +122,7 @@ The fitted curve accurately overlays the observed data points.
 
 ---
 
-## 🧰 **How to Reproduce**
+**How to Reproduce**
 
 ```bash
 # Step 1: Install dependencies
@@ -139,7 +139,7 @@ Output:
 
 ---
 
-## 🧠 **Evaluation Criteria Mapping**
+**Evaluation Criteria Mapping**
 
 | Evaluation Item | Max Marks | Status |
 |------------------|-----------|--------|
@@ -150,7 +150,7 @@ Output:
 
 ---
 
-## 🧾 **References**
+**References**
 
 1. Harris, C. R., Millman, K. J., van der Walt, S. J., Gommers, R., Virtanen, P., Cournapeau, D., ... & Oliphant, T. E. (2020). *Array programming with NumPy.* Nature, 585(7825), 357–362. https://doi.org/10.1038/s41586-020-2649-2  
 2. Virtanen, P., Gommers, R., Oliphant, T. E., Haberland, M., Reddy, T., Cournapeau, D., ... & van der Walt, S. J. (2020). *SciPy 1.0: Fundamental algorithms for scientific computing in Python.* Nature Methods, 17(3), 261–272. https://doi.org/10.1038/s41592-019-0686-2  
@@ -159,7 +159,7 @@ Output:
 
 ---
 
-## 👨‍💻 **Author**
+**Author**
 **Jaswanth Kumar N**  
 Department of Electronics and Computer Engineering  
 Amrita Vishwa Vidyapeetham, Bengaluru  
@@ -167,6 +167,6 @@ Amrita Vishwa Vidyapeetham, Bengaluru
 
 ---
 
-## ✅ **Summary**
+**Summary**
 This project demonstrates a robust mathematical and computational approach to parameter estimation in a nonlinear parametric curve using optimization.  
 The resulting parameters provide a strong fit to the given dataset, validating both the method and the implementation.
